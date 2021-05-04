@@ -1,0 +1,75 @@
+.tituloPrinc{
+  text-align: center;
+  font-size: x-large;
+
+}
+.cuerpo{
+  background-color: white;
+
+}
+
+.TituloVideo {
+text-align: center;
+}
+
+.TextoMundos , .TextoLlaves , .texto1 {
+  letter-spacing: 1px;
+  text-align: justify;
+  background-color: white;
+padding: 5%;
+}
+
+.imagen {
+float: left;
+}
+
+.titulo{
+  font-size: x-large;
+  padding: 3%;
+  color: #333;
+  text-align: left;
+}
+
+.tituloa{
+  font-size: x-large;
+  padding: 3%;
+  background-color: #333;
+color: white;
+text-align: left;
+padding-bottom: 3cm;
+
+}
+
+
+ul  {
+  list-style-type: none;
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.pie ul   {
+  list-style-type: none;
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ffc93c;
+}

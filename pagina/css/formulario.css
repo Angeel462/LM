@@ -1,0 +1,171 @@
+body{
+  font-family: helvetica;
+  margin: 5cm;
+  padding: 2cm;
+  margin-top:10px;
+line-height: 150%;
+background-color: rgb(221, 215, 215);
+
+}
+
+.tituloPrinc{
+  text-align: center;
+  font-size: x-large;
+
+}
+.cuerpo{
+  background-color: white;
+
+}
+.titulo{
+  font-size: x-large;
+  padding: 3%;
+  color: #333;
+  text-align: left;
+}
+
+.tituloa{
+  font-size: x-large;
+  padding: 3%;
+  background-color: #333;
+color: white;
+text-align: left;
+padding-bottom: 3cm;
+
+}
+
+.pie{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr  ;
+  grid-template-rows: 1fr ;
+  text-align: center;
+  background-color: white;
+  padding-top:0.2cm ;
+  padding-bottom:0.2cm ;
+}
+
+hr{
+color:orange;  background-color: white;
+
+}
+.mapa {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  border: orange 3px solid;
+  background-color: #ffc93c ;
+  margin-left: 0.2cm;
+  margin-right: 0.2cm;
+  padding-left: 0.3cm;
+  padding-top: 0.1cm;
+  padding-right: 0.4cm;
+
+}
+
+.contacto {
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  border: orange 3px solid;
+  background-color: #ffc93c ;
+  margin-left: 0.2cm;
+  margin-right: 0.2cm;
+  padding-left: 0.4cm;
+  padding-top: 0.1cm;
+  color: white;
+}
+
+.links {
+  grid-column-start:3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  border: orange 3px solid;
+  background-color: #ffc93c ;
+  margin-left: 0.2cm;
+  margin-right: 0.2cm;
+  padding-left: 0.4cm;
+  padding-top: 0.1cm;
+}
+
+ul  {
+  list-style-type: none;
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#form_24042 ul {
+  background-color: white;
+}
+
+.pie ul   {
+  list-style-type: none;
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ffc93c;
+}
+
+.links{
+  padding-right: 0.5cm;
+}
+
+.contacto{
+  padding-right: 0.5cm;
+  
+}
+
+.imagCron{
+  margin-right: 7cm;
+  margin-left: -2cm;
+}
+
+.imgTitu {
+  float: right;
+  background-color: #333;
+} 
+.imgTitu2 {
+  float: left;
+  margin-right: 1cm;
+  background-color: #333;
+}
+
+.contenedor{
+  background-color: white;
+  display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content:space-between;
+  }
+  .elemento{ 
+  width: 45%;
+  height: 45%;
+  padding: 0.3cm;
+}
+
+  .elemento2{
+    width: 50%;
+    height: 50%;
+    padding: 0.3cm;
+      }
